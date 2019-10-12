@@ -13,7 +13,7 @@ count if restatus != 4
 
 * 2. 
 
-* These txt files were downloaded from CDC Wonder
+* The below raw text files were downloaded from CDC Wonder
 
 insheet using "Compressed Mortality, 1979-1998.txt", clear
 drop notes racecode yearcode
