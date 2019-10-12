@@ -3,7 +3,7 @@
 
 * Download and unzip most recent year of mortality data from 
 * http://www.nber.org/data/vital-statistics-mortality-data-multiple-cause-of-death.html
-* Direct link to data here:
+* Direct link to 2017 data here:
 * http://www.nber.org/mortality/2017/mort2017.dta.zip
 
 use mort2017.dta, clear
