@@ -1,6 +1,6 @@
 ![test image size](uninsured.png){:class="img-responsive"}
-![test image size](uninsured.png){:height="50%" width="50%"}
-![test image size](uninsured.png){:height="700px" width="400px"}
+![test image size](uninsured.png){:height="20%" width="20%"}
+![test image size](uninsured.png){:height="300px" width="100px"}
 
 ![uninsured](uninsured.png)
 
