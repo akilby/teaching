@@ -1,1 +1,5 @@
-![Image description](uninsured.png)
+![uninsured](uninsured.png)
+
+![medicaid](medicaid.png)
+
+![private](private.png)
