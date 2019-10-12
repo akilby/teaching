@@ -1,12 +1,19 @@
 
 * 1. 
 
+* Download and unzip most recent year of mortality data from 
+* http://www.nber.org/data/vital-statistics-mortality-data-multiple-cause-of-death.html
+* Direct link to data here:
+* http://www.nber.org/mortality/2017/mort2017.dta.zip
+
 use mort2017.dta, clear
 tab restatus
 count if restatus != 4
 
 
 * 2. 
+
+* These txt files were downloaded from CDC Wonder
 
 insheet using "Compressed Mortality, 1979-1998.txt", clear
 drop notes racecode yearcode
