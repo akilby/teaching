@@ -109,5 +109,7 @@ arcos_configure.txt
 # .DS_Store
 .DS_Store
 
+# .dta files
+mort2017.dta
 
 
