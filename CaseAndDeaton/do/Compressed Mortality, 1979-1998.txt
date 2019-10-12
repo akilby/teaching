@@ -1,0 +1,87 @@
+"Notes"	"Race"	"Race Code"	"Year"	"Year Code"	Deaths	Population	Crude Rate
+	"Black or African American"	"2054-5"	"1979"	"1979"	24646	2275000	1083.3
+	"Black or African American"	"2054-5"	"1980"	"1980"	24816	2281648	1087.6
+	"Black or African American"	"2054-5"	"1981"	"1981"	23675	2291771	1033.0
+	"Black or African American"	"2054-5"	"1982"	"1982"	22531	2299776	979.7
+	"Black or African American"	"2054-5"	"1983"	"1983"	22328	2318506	963.0
+	"Black or African American"	"2054-5"	"1984"	"1984"	22098	2339465	944.6
+	"Black or African American"	"2054-5"	"1985"	"1985"	22486	2367008	950.0
+	"Black or African American"	"2054-5"	"1986"	"1986"	22648	2395350	945.5
+	"Black or African American"	"2054-5"	"1987"	"1987"	23001	2440872	942.3
+	"Black or African American"	"2054-5"	"1988"	"1988"	23632	2497580	946.2
+	"Black or African American"	"2054-5"	"1989"	"1989"	24110	2552081	944.7
+	"Black or African American"	"2054-5"	"1990"	"1990"	23871	2590791	921.4
+	"Black or African American"	"2054-5"	"1991"	"1991"	24364	2674576	910.9
+	"Black or African American"	"2054-5"	"1992"	"1992"	25005	2820889	886.4
+	"Black or African American"	"2054-5"	"1993"	"1993"	26918	2960565	909.2
+	"Black or African American"	"2054-5"	"1994"	"1994"	28271	3122545	905.4
+	"Black or African American"	"2054-5"	"1995"	"1995"	29619	3296228	898.6
+	"Black or African American"	"2054-5"	"1996"	"1996"	29771	3480929	855.3
+	"Black or African American"	"2054-5"	"1997"	"1997"	29614	3665910	807.8
+	"Black or African American"	"2054-5"	"1998"	"1998"	30265	3848854	786.3
+	"Other Race"	"2131-1"	"1979"	"1979"	1625	418000	388.8
+	"Other Race"	"2131-1"	"1980"	"1980"	1707	459053	371.9
+	"Other Race"	"2131-1"	"1981"	"1981"	1792	501141	357.6
+	"Other Race"	"2131-1"	"1982"	"1982"	1873	534449	350.5
+	"Other Race"	"2131-1"	"1983"	"1983"	1869	568390	328.8
+	"Other Race"	"2131-1"	"1984"	"1984"	1938	605424	320.1
+	"Other Race"	"2131-1"	"1985"	"1985"	1944	645484	301.2
+	"Other Race"	"2131-1"	"1986"	"1986"	2136	690037	309.5
+	"Other Race"	"2131-1"	"1987"	"1987"	2235	736854	303.3
+	"Other Race"	"2131-1"	"1988"	"1988"	2401	789783	304.0
+	"Other Race"	"2131-1"	"1989"	"1989"	2523	846100	298.2
+	"Other Race"	"2131-1"	"1990"	"1990"	2585	895366	288.7
+	"Other Race"	"2131-1"	"1991"	"1991"	2659	970871	273.9
+	"Other Race"	"2131-1"	"1992"	"1992"	2885	1052693	274.1
+	"Other Race"	"2131-1"	"1993"	"1993"	3027	1140822	265.3
+	"Other Race"	"2131-1"	"1994"	"1994"	3399	1232187	275.9
+	"Other Race"	"2131-1"	"1995"	"1995"	3597	1329677	270.5
+	"Other Race"	"2131-1"	"1996"	"1996"	3679	1430787	257.1
+	"Other Race"	"2131-1"	"1997"	"1997"	3864	1532337	252.2
+	"Other Race"	"2131-1"	"1998"	"1998"	4058	1642349	247.1
+	"White"	"2106-3"	"1979"	"1979"	108994	20242000	538.5
+	"White"	"2106-3"	"1980"	"1980"	106634	20059086	531.6
+	"White"	"2106-3"	"1981"	"1981"	103766	19786623	524.4
+	"White"	"2106-3"	"1982"	"1982"	98685	19591084	503.7
+	"White"	"2106-3"	"1983"	"1983"	95696	19468575	491.5
+	"White"	"2106-3"	"1984"	"1984"	93177	19440534	479.3
+	"White"	"2106-3"	"1985"	"1985"	92204	19446812	474.1
+	"White"	"2106-3"	"1986"	"1986"	90377	19573540	461.7
+	"White"	"2106-3"	"1987"	"1987"	90684	19918154	455.3
+	"White"	"2106-3"	"1988"	"1988"	91439	20661885	442.5
+	"White"	"2106-3"	"1989"	"1989"	91633	21235009	431.5
+	"White"	"2106-3"	"1990"	"1990"	92152	21570493	427.2
+	"White"	"2106-3"	"1991"	"1991"	93653	22174705	422.3
+	"White"	"2106-3"	"1992"	"1992"	97140	23674136	410.3
+	"White"	"2106-3"	"1993"	"1993"	101870	24762562	411.4
+	"White"	"2106-3"	"1994"	"1994"	106227	25798029	411.8
+	"White"	"2106-3"	"1995"	"1995"	109784	26854334	408.8
+	"White"	"2106-3"	"1996"	"1996"	110879	27888249	397.6
+	"White"	"2106-3"	"1997"	"1997"	111404	28979261	384.4
+	"White"	"2106-3"	"1998"	"1998"	112156	29740654	377.1
+"---"
+"Dataset: Compressed Mortality, 1979-1998"
+"Query Parameters:"
+"Age Group: 45-54 years"
+"Group By: Race; Year"
+"Show Totals: False"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/cmf.html for more information."
+"---"
+"Query Date: Oct 12, 2019 3:45:36 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Compressed Mortality File"
+"1979-1998. CDC WONDER On-line Database, compiled from Compressed Mortality File CMF 1968-1988, Series 20, No. 2A, 2000 and CMF"
+"1989-1998, Series 20, No. 2E, 2003. Accessed at http://wonder.cdc.gov/cmf-icd9.html on Oct 12, 2019 3:45:36 PM"
+"---"
+Caveats:
+"1. Population figures in this table for 1979 and 1981-89 are intercensal estimates of the July 1 resident population of the"
+"United States. Note that the state and county population estimates for these years are not consistent with national estimates."
+"The population figures in this table for 1980 and 1990 are modified age-race-sex (MARS) April 1 census counts. The population"
+"figures for 1991-98 are bridged-race intercensal estimates of the July 1 resident population."
+"2. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/cmf.html#Not Stated."
