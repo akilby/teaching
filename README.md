@@ -1,3 +1,4 @@
 # teaching
 
-Quantitative exercises for problem sets in Health Economics and Health Care Policy
+Solutions for quantitative exercises in course *Health Economics and Health Care Policy*
+
