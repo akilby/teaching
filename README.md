@@ -1,4 +1,4 @@
 # teaching
 
-Solutions for quantitative exercises in course *Health Economics and Health Care Policy*
+Solutions for quantitative exercises for the course *Health Economics and Health Care Policy*
 
