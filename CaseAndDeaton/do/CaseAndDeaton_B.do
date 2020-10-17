@@ -1,6 +1,6 @@
 * 3.
 
-insheet using "Underlying Cause of Death, 1999-2017 - single year ages.txt", clear
+insheet using "Underlying Cause of Death, 1999-2018 - single year ages.txt", clear
 drop notes
 drop if missing(year)
 drop if missing(singleyearages)

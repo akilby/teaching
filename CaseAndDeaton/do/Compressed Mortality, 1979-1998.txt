@@ -71,11 +71,11 @@
 "---"
 "Help: See http://wonder.cdc.gov/wonder/help/cmf.html for more information."
 "---"
-"Query Date: Oct 12, 2019 3:45:36 PM"
+"Query Date: Oct 13, 2020 8:57:28 PM"
 "---"
 "Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Compressed Mortality File"
 "1979-1998. CDC WONDER On-line Database, compiled from Compressed Mortality File CMF 1968-1988, Series 20, No. 2A, 2000 and CMF"
-"1989-1998, Series 20, No. 2E, 2003. Accessed at http://wonder.cdc.gov/cmf-icd9.html on Oct 12, 2019 3:45:36 PM"
+"1989-1998, Series 20, No. 2E, 2003. Accessed at http://wonder.cdc.gov/cmf-icd9.html on Oct 13, 2020 8:57:28 PM"
 "---"
 Caveats:
 "1. Population figures in this table for 1979 and 1981-89 are intercensal estimates of the July 1 resident population of the"

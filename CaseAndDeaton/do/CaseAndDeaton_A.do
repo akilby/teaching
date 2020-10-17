@@ -6,7 +6,7 @@
 * Direct link to 2017 data here:
 * http://www.nber.org/mortality/2017/mort2017.dta.zip
 
-use mort2017.dta, clear
+use Mort2018US.PubUse.dta, clear
 tab restatus
 count if restatus != 4
 
@@ -21,7 +21,7 @@ drop if missing(year)
 tempfile early 
 save `early'
 
-insheet using "Underlying Cause of Death, 1999-2017.txt", clear
+insheet using "Underlying Cause of Death, 1999-2018.txt", clear
 drop notes racecode yearcode
 drop if missing(year)
 tab race

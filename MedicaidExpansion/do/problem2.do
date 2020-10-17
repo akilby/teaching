@@ -1,3 +1,41 @@
+
+** 0. Cleaning Excel spreadsheet of health insurance rates by state from the Census
+
+* Note: Many of you will have cleaned and manipulated this dataset in Excel. That is  
+* fine for full credit, as long as you did the analysis work in Stata or another scripting  
+* language. However, it can be useful to learn how to do this kind of cleaning 
+* in Stata. There are many ways to do it, and the below is an (advanced)
+* example that utilizes loops, if statements, and macros.
+
+* Can import directly from the web or from hard disk, and use cellrange to specify which part of the table to import
+import excel using https://www2.census.gov/programs-surveys/demo/tables/health-insurance/time-series/acs/hic04_acs.xlsx, clear cellrange(A6:AX577) 
+
+* Keep only the percent variables
+keep A B E I M Q U Y AC AG AK AO AS AW
+
+* Rename variables so we know what they are - I consulted the spreadsheet, open in Excel at the same time,
+* to make sure I was doing the right thing
+ren A state
+ren B type
+ren E Percent2019
+ren I Percent2018
+ren M Percent2017
+ren Q Percent2016
+ren U Percent2015
+ren Y Percent2014
+ren AC Percent2013
+ren AG Percent2012
+ren AK Percent2011
+ren AO Percent2010
+ren AS Percent2009
+ren AW Percent2008
+
+* Reshape the data to be "long" where there is one line for each state-year-type
+reshape long Percent, i(state type) j(year)
+
+save hic04_acs_clean.dta, replace
+
+
 ** 1. Read in Medicaid Expansion dates from my hand-collected data table
 
 insheet using expansion_dates.csv, names clear
@@ -5,28 +43,24 @@ tab expansiondate
 
 ** 4. Make expansion date groupings. I decide to make rough groups by year of 
 * implementation.  The largest group is 2014 implementers. I  make a category  
-* for early implementers, group late-implementers adopting between 2015-2017 together 
+* for early implementers, group late-implementers adopting between 2015-2019 together 
 * (because these states all implemented in the period for which we have uninsured rate data), 
-* and include 2019 and TBD implementers with the non-implementers, because our data 
-* ends in 2018. The only difficult case here is Maine, which KFF says implemented on 1/10/2019, 
-* but coverage was eventually made retroactive to 7/2/2018. It's not totally clear 
-* whether Maine should thus be counted for 2018, but I made the judgment call to assign to 2019
-* because it is unlikely that people were making active coverage decisions in 2018 because they 
-* anticipated they would eventually receive Medicaid. You might have also reasonably decided
-* to put it into the "late implementers" group.
+* and include 2020 and future implementers with the non-implementers, because our data 
+* ends in 2019. You might have made different choices, but you should have come up with no 
+* more than 3-5 logical state groups, based on their expansion timing. 
 
-* You might have made different choices, but you should have come up with no more than 
-* 3-5 logical state groups. 
-
-gen group = "never" if expansiondate=="not implemented" | expansiondate=="approved; TBD"
-replace group = "never" if strmatch(expansiondate, "*2019")
+gen group = "never" if expansiondate=="not implemented" | expansiondate=="not implemented; planned for 7/1/2021"
+replace group = "never" if strmatch(expansiondate, "*/20")
 replace group = "early" if strmatch(expansiondate, "Early expansion*")
-replace group = "late" if strmatch(expansiondate, "*2015")
-replace group = "late" if strmatch(expansiondate, "*2016")
-replace group = "late" if strmatch(expansiondate, "*2017")
-replace group = "2014" if strmatch(expansiondate, "*2014")
+replace group = "late" if strmatch(expansiondate, "*/15")
+replace group = "late" if strmatch(expansiondate, "*/16")
+replace group = "late" if strmatch(expansiondate, "*/17")
+replace group = "late" if strmatch(expansiondate, "*/18")
+replace group = "late" if strmatch(expansiondate, "*/19")
+replace group = "2014" if strmatch(expansiondate, "*/14")
 
 count if missing(group)   /* As expected, I have succesfully categorized every state */
+table expansiondate group
 
 * Merge with cleaned data
 
@@ -35,7 +69,7 @@ merge 1:m state using hic04_acs_clean.dta
 * Check the merge quality - everything without a match of 3
 
 tab state if _merge==2
-drop if state=="UNITED STATES"
+drop if state=="United States"
 drop _merge
 
 tempfile merged_data_by_state
